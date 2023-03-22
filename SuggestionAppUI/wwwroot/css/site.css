@@ -642,3 +642,21 @@ a:hover, btn-link:hover{
 .btn-status-dismissed:hover {
     color: #B9C30B;
 }
+
+@media screen and (max-width: 575px){
+    .btn-approve,
+    .btn-reject{
+        width: 45%;
+    }
+
+    .suggestion-entry {
+        grid-template-columns: 100px 1fr 45px;
+    }
+
+    .suggestion-entry-no-votes,
+    .suggestion-entry-voted,
+    .suggestion-entry-not-voted{
+        min-height: 100px;
+    }
+}
+
